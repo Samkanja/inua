@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<div>
+   {% for p in programs %}
+   <h1>{{ p.title }}</h1>
+   {% endfor %}
+</div>
+
+{% endblock %}
